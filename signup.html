@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<form action="signup.js">  
+<body>
+    <header><h1>Sign Up</h1></header>
+    <main>
+        <section>
+            <form action="signup.js">
+                <p><b>Email:</b> <input type="text" placeholder="Enter your email"></p>
+                <p><b>Password:</b> <input type="password" placeholder="Enter your password"></p>
+                <p><b>Confirm Password:</b> <input type="password" placeholder="Enter your password again"></p>
+            </form>
+        </section>
+        <section>
+            <label for="1">
+                <input type="checkbox" value="upper"  name="password"  id="1"> Upper case
+            </label>
+            <label for="2">
+                <input type="checkbox" value="lower"  name="password"  id="2"> Lower case
+            </label>
+            <label for="1">
+                <input type="checkbox" value="special"  name="password"  id="3"> Special character
+            </label>
+        </section>
+        <section>
+            <h4>Select your Gender:</h4>
+            <label for="male">
+                <input type="radio" value="male" name="gender" id="male"> Male
+            </label>
+            <label for="female">
+                <input type="radio" value="female" name="gender" id="female"> Female
+            </label>
+        </section>
+        <section>
+            <h4>Sign up as:</h4>
+            <select name="control">
+                <option value="Admin"> Admin</option>
+                <option value="student"> Student</option>
+            </select>
+        </section>
+        <br/>
+        <input type="submit" value="Register"> 
+    </main>
+</body>
+</form>
+</html>
